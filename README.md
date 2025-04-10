@@ -1,6 +1,6 @@
-# 🧾 Invoice Extraction Pipeline
+# 🧾 Invoice Information Extraction using OCR + LayoutLMv3
 
-> A real-world NLP + Computer Vision project to extract structured information from unstructured invoice images using OCR and deep learning.
+> A real-world NLP + Computer Vision project to extract structured information from unstructured invoice images using a combination of **OCR (Tesseract)** and **transformer-based deep learning (LayoutLMv3)**.
 
 ---
 
@@ -44,6 +44,24 @@ This is a hybrid **Computer Vision + NLP project**, where:
 
 ---
 
+## 🧠 Approach
+
+### 🔹 Phase 1: OCR + Rule-Based Extraction
+- Used **Tesseract OCR** to extract raw text from invoice images.
+- Used Python + regex to extract specific fields like:
+  - Invoice Number
+  - Invoice Date
+  - Seller & Client Info
+  - Items & Totals
+
+### 🔹 Phase 2: Deep Learning with LayoutLMv3
+- Trained on **FUNSD** dataset using Hugging Face
+- Preprocessed tokens, bounding boxes, and labels
+- Fine-tuned `microsoft/layoutlmv3-base` for document understanding
+- Performed inference on real invoice images
+
+---
+
 ## 📦 Project Output
 
 Sample extracted fields:
@@ -57,4 +75,14 @@ Sample extracted fields:
   "gross_total": "31.06",
   "vat_total": "2.82"
 }
+---
+
+## 📌 Future Improvements
+
+- 🏷️ Train on a **custom-labeled dataset** with specific fields like `invoice_number`, `net_total`, etc. for better accuracy
+- 📄 Extend the pipeline to support other document types like **receipts**, **purchase orders**, or **ID cards**
+- 🌐 Build a **Streamlit** or web-based app for uploading invoice images and viewing extracted results in real-time
+- 🧠 Fine-tune the model using **domain-specific invoices** from industries like e-commerce or logistics
+- ☁️ Deploy the solution using **Flask**, **FastAPI**, or **AWS Lambda** for scalable document automation
+
 
