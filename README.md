@@ -76,4 +76,3 @@ Sample extracted fields:
   "vat_total": "2.82"
 }
 
----
