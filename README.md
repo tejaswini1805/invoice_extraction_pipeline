@@ -75,6 +75,7 @@ Sample extracted fields:
   "gross_total": "31.06",
   "vat_total": "2.82"
 }
+
 ---
 
 ## 📌 Future Improvements
