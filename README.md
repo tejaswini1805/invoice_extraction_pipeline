@@ -57,5 +57,4 @@ Sample extracted fields:
   "gross_total": "31.06",
   "vat_total": "2.82"
 }
-![Invoice Extraction Demo](output/sample_invoice_demo.png)
 
