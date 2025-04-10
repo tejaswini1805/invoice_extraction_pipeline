@@ -1,0 +1,12 @@
+{
+    "Invoice Number": "17045625",
+    "Invoice Date": "11/01/2017",
+    "Seller Info": "Bass-Petersen\n88013 Keith Orchard\nPort Jenniferfurt, ID 01419",
+    "Client Info": "Davidson-Martinez\n36262 Walters Vista\nEvansstad, ND 36644",
+    "Items": [
+        "Cell: A Novel by Stephen King"
+    ],
+    "Net Total": "28,24",
+    "VAT Total": "2,82",
+    "Gross Total": "31,06"
+}
