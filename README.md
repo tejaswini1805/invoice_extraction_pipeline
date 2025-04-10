@@ -62,6 +62,18 @@ This is a hybrid **Computer Vision + NLP project**, where:
 
 ---
 
+---
+
+## 🔮 Future Improvements
+
+- 🏷️ Train on a custom-labeled dataset with specific fields like invoice_number, net_total, etc. for better accuracy  
+- 📄 Extend the pipeline to support other document types like receipts, purchase orders, or ID cards  
+- 🌐 Build a Streamlit or web-based app for uploading invoice images and viewing extracted results in real-time  
+- 🧠 Fine-tune the model using domain-specific invoices from industries like e-commerce or logistics  
+- ☁️ Deploy the solution using Flask, FastAPI, or AWS Lambda for scalable document automation
+
+---
+
 ## 📦 Project Output
 
 Sample extracted fields:
@@ -75,18 +87,3 @@ Sample extracted fields:
   "gross_total": "31.06",
   "vat_total": "2.82"
 }
-
----
-
-## 🔮 Future Improvements
-
-- 🏷️ Train on a custom-labeled dataset with specific fields like invoice_number, net_total, etc. for better accuracy  
-- 📄 Extend the pipeline to support other document types like receipts, purchase orders, or ID cards  
-- 🌐 Build a Streamlit or web-based app for uploading invoice images and viewing extracted results in real-time  
-- 🧠 Fine-tune the model using domain-specific invoices from industries like e-commerce or logistics  
-- ☁️ Deploy the solution using Flask, FastAPI, or AWS Lambda for scalable document automation
-
----
-
-
-
